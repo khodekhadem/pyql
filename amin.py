@@ -18,7 +18,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   #user="ansible",
   #password="password",
-  user="bob",
+  user="bob2",
   password="12345"#,
   #database="mysql"
 )
