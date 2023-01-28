@@ -16,8 +16,10 @@ def convertTuple(tup):
  
 mydb = mysql.connector.connect(
   host="localhost",
-  user="ansible",
-  password="password",
+  #user="ansible",
+  #password="password",
+  user="bob",
+  password="12345",
   database="mysql"
 )
 
