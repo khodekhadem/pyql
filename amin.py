@@ -19,8 +19,8 @@ mydb = mysql.connector.connect(
   #user="ansible",
   #password="password",
   user="bob",
-  password="12345",
-  database="mysql"
+  password="12345"#,
+  #database="mysql"
 )
 
 mycursor = mydb.cursor()
